@@ -1,0 +1,5 @@
+/*Микс для широких секций*/
+.page__wide-section {
+  max-width: 1184px;
+  margin: 0 auto;
+}

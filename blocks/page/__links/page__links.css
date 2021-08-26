@@ -1,0 +1,9 @@
+/*Общие стили для ссылок*/
+.page__links {
+  color: #ffffff;
+  transition: 0.2s linear;
+}
+
+.page__links:hover {
+  opacity: 0.8;
+}
