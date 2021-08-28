@@ -1,12 +1,9 @@
 .header__lang-link {
   margin-right: 18px;
-  color: #FFFFFF;
-
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
-  text-decoration: none;
 }
 
 @media screen and (min-width: 544px) {
