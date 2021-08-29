@@ -1,5 +1,10 @@
 .place__website {
-  /*width: 46%;
-  margin: 0 0 5.1724%;*/
   align-self: end;
+}
+
+@media screen and (max-width: 544px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

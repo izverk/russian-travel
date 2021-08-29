@@ -1,3 +1,10 @@
 .place__paragraph-wrap {
   margin: 0;
 }
+
+@media screen and (max-width: 544px) {
+  .place__paragraph-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

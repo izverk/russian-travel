@@ -5,16 +5,18 @@
   line-height: 1.06;
 }
 
-@media screen and (max-width: 895px) and (min-width: 544px) {
+@media screen and (max-width: 910px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width: 543px) {
+@media screen and (max-width: 544px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

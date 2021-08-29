@@ -2,10 +2,6 @@
   padding-right: 48px;
   padding-left: 48px;
   padding-bottom: 92px;
-  list-style: none;
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
 }
 
 @media screen and (max-width: 895px) {
@@ -16,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 700px) {
   .photo-grid {
     padding-right: 16px;
     padding-left: 16px;

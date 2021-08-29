@@ -4,25 +4,24 @@
 /*Шрифты Inter*/
 @import url(../vendor/fonts/inter.css);
 
-/*Главный контейнер*/
+/*Главный контейнер и миксы*/
 @import url(../blocks/page/page.css);
-
-/*Миксы*/
 @import url(../blocks/page/__links/page__links.css);/*Общие стили для ссылок*/
-@import url(../blocks/page/__wide-section/page__wide-section.css);/*Позиционирование широких секций*/
-@import url(../blocks/page/__narrow-section/page__narrow-section.css);/*Позиционирование узких секций*/
-
+@import url(../blocks/page/__section/page__section.css);/*Внешние отступы для всех секций*/
+@import url(../blocks/page/__section/_width/page__section_width_wide.css);/*Максимальная ширина для широких секций*/
+@import url(../blocks/page/__section/_width/page__section_width_narrow.css);/*Максимальная ширина для узких секций*/
 
 /*Cтили блоков и элементов*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_not-underline/header__lang-link_not-underline.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -32,10 +31,11 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-digits/intro__list-digits.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -51,13 +51,12 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__overlay-hover/cover__overlay-hover.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
 /*
 * {
     outline: rgb(16, 189, 123) solid 1px;
